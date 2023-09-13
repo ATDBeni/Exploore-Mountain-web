@@ -93,4 +93,9 @@ margin-left: 13%;
 }
 .para-sec2{
   width: 50%;
+  margin-left: 20px;
+  
+}
+.sec2{
+  display: flex;
 }
