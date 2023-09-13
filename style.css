@@ -11,9 +11,7 @@ padding: 0px;
         height: 9rem;
         width: 100%;
         padding: 0 6rem;
-       
         z-index: 100;
-
 }
 
 .nav_button{
@@ -22,7 +20,7 @@ padding: 0px;
       list-style: none;
       font-size: 23px;
       font-family: 'Poppins', sans-serif;
-      color: white;
+      color: black;
 }
 ul {
     list-style-type: none;
@@ -39,109 +37,60 @@ ul {
     padding: 12px;
   
   }
-  .first_div{
-    background-color:rgb(52, 51, 52);
+  a{
+    text-decoration: none;
   }
+  .logo{
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+
   .section--1{
-    background-color: rgb(52, 51, 52);
     width: 100%;
-    height: 725px;
-    top: 1,49px;
-    background-image: url(https://c.pxhere.com/photos/b0/ea/mountain_sky_alps_nature_clouds_austria_landscape_mountains-1046299.jpg!d);
+    background-image: url(/img/Mountain\ design\ web.png);
+    background-size: cover;
+    background-position:center;
   }
-.paragraf-web{
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    width:600px;
-    height: 400px;
-    padding: 50px;
-    color: white;
+.first-sec{
+  display: flex;
+  flex-direction: row;
+  
+}
+.sec1-para{
+  width: 50%;
+}
+.img-boat{
+width: 30%;
+height: 400px;
+margin-top: 103px;
+margin-bottom: 63px;
+margin-left: 13%;
 }
 .Name-web{
-    padding: 30px;
-    font-size:  55px;
-    font-family: 'Poppins', sans-serif;
     color: white;
-  
-}
-.Butoon-web{
-    height: 22px;
-    width: 200px;
-    font-weight: 600;
-    line-height: 22px;
-    color: white;
-    background-color: rgb(0, 0, 0);
-    border: 0px;
-    margin: 10px;
-    border-radius: 24px;
-    transition: all 0.7s;
-}
-.Butoon-web:hover{
-  color: black;
-  background-color: white;
-}
-.img{
-    position: absolute;
-    width: 275.56px;
-    height: 335.61px;
-    left: 1080.72px;
-    top: 236.45px;
-    border-radius: 7.67689px;
-}
-
-.section--2{
-  position: absolute;
-  width: 1184px;
-  height: 147px;
-  left: 13px;
-  top: 1000px;
-  
-  
-  
-}
-.second-web{
- font-size: 50px;
+    font-size: 60px;
+    margin-left: 60px;
 
 
 }
-
-
-
-.first-paragraf{
- /* At Gift Life Adventures, we believe the most rewarding experiences are those that are both challenging and social. That’s why we bring people together to experience adventure weekends and outdoor activities that take people way beyond their comfort zones. To us, the great outdoors is our canvas — and the paint is adventure. Whether we’re on foot, on the water or on two wheels, we’re passionate about making adventure weekends and experience days accessible to all. Over the years, we’ve experienced some truly life-changing moments with our fellow adventurers. We’ve cycled through English forests, hiked across Spanish mountain ranges and rafted down Scottish rivers. Our outdoor experiences have taken us to the likes of Croatia, Belgium, Portugal, Italy and Israel. But wherever we’ve been, the adventure has always been enhanced by the camaraderie we share with our clients — our friends. */
-
-margin: 10px;
-width: 700px;
-height: 188px;
-left: 0px;
-top: 100px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-size: 32px;
-line-height: 30px;
-/* or 188% */
-text-align: justify;
-text-transform: capitalize;
-color: black;
-
-
+.paragraf-web{
+  font-size: 25px;
+  margin-left: 60px;
+  color: white;
+  font-weight: bold;
+  line-height: 2;
 }
-
-
-
-
-
-
-.ing{
-  
-
-  position: absolute;
-  left: 90%;
-  right: 50%;
-  top: 100px;
-  bottom: 15.21%;
-  height: 400px;
-  width: 600px;
-  
-  background: #FFFFFF;
+.btn-sec1{
+  width: 150px;
+  color: white;
+  background-color: #4AB45E;
+  ;
+  border: none;
+  height: 30px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.para-sec2{
+  width: 50%;
 }
