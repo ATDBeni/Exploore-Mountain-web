@@ -99,3 +99,39 @@ margin-left: 13%;
 .sec2{
   display: flex;
 }
+.tiket{
+text-align: center;
+
+}
+
+.tiket h3{
+  color: #4AB45E;
+  font-size: 18px;
+}
+.sir-tiket{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.fist-tiket{
+    text-align: center;
+    max-width: 120px;
+margin-right: 40px;
+}
+.second-tiket{
+  text-align: center;
+  max-width: 120px;
+  margin-right: 40px;
+
+}
+.third-tiket{
+  text-align: center;
+  max-width: 120px;
+  margin-right: 40px;
+
+}
+.Fourth-tiket{
+  text-align: center;
+  max-width: 120px;
+}
